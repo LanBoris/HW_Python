@@ -8,3 +8,16 @@
 4 4 -> 2 2
 5 6 -> 2 3
 '''
+import random
+
+summ = int(input('Введите сумму чисел: '))
+multiply = int(input('Введите произведение чисел: '))
+number_1 = 0
+number_2 = 0
+flag = False
+while (flag == False):
+    number_1 = random.randint(1, 1000)
+    number_2 = random.randint(1, 1000)
+    if number_1 + number_2 == summ and number_1 * number_2 == multiply: flag = True
+    else: flag = False
+print(f'Петя загадал: {number_1,number_2}')
