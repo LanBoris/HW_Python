@@ -12,11 +12,11 @@ import random
 
 list_numbers = []
 size_of_list = int(input('Введите количество элементов списка: '))
-number = int(input(f'Введите искомое число в интревале от 1 до {size_of_list}: '))
+number = int(input(f'Введите искомое число в интревале от 1 до 10: '))
 counter = 0
 
 for i in range(size_of_list):
-    list_numbers.append(random.randint(1, size_of_list))
+    list_numbers.append(random.randint(1, 10))
     if list_numbers[i] == number:
         counter += 1
 

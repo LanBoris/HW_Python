@@ -12,10 +12,10 @@ import random
 
 list_numbers = []
 size_of_list = int(input('Введите размер списка: '))
-number = int(input('Введите число Х: '))
+number = int(input('Введите число Х в интервале 1 - 100: '))
 
 for i in range(size_of_list):
-    list_numbers.append(random.randint(1, size_of_list))
+    list_numbers.append(random.randint(1, 100))
 
 find_num = list_numbers[0]
 
