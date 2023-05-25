@@ -14,6 +14,7 @@
 # 5 10 15 20 25 30
 # 6 12 18 24 30 36
 
+
 def print_operation_table(operation, num_rows, num_сolumns):
     my_table = [[operation(i, j) for i in range(1, num_rows+1)]
                 for j in range(1, num_сolumns+1)]
