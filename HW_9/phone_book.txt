@@ -1,0 +1,7 @@
+1:Andrey:89034567823:friend
+2:Boris:89251234567:friend
+3:Vlad:89046537216:worker
+4:Ag:89057623456:designer
+5:Yana:89056764536:driver
+6:Dima:89057648293:driver
+7:Misha:89045673829:friend
