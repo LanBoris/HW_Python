@@ -56,3 +56,11 @@ def delete_contact(new: dict, index: int) -> str:
             name_del = contact.get('name')
             del phone_book[int(contact.get('id')) - 1]
             return name_del
+
+def new_ids():
+    global phone_book
+    new_id = 0
+    for contact in phone_book:
+        new_id = new_id + 1
+        contact['id'] = str(new_id)
+    return phone_book

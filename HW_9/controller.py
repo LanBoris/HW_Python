@@ -52,5 +52,6 @@ def start():
                     view.print_message(text.delete_contact(name))
                 else:
                     view.print_message(text.empty_search(word))
+                model.new_ids()
             case 8:
                 break
