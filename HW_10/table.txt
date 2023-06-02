@@ -1,0 +1,5 @@
+1:Boris:75
+2:Ag:2
+3:Ars:9
+4:Evgenia:2
+1:Vlad:15
