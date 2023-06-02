@@ -1,6 +1,6 @@
 1:Andrey:89034567823:friend
-2:Boris:89251234567:friend
-3:Vlad:89046537216:worker
-4:Ag:89057623456:designer
-5:Dima:89057648293:driver
-6:Misha:89045673829:friend
+2:Boris:89251234567:best friend
+3:Ag:89057623456:designer
+4:Dima:89057648293:driver
+5:Misha:89045673829:friend
+6:Evgenia:89057647362:girlfriend
